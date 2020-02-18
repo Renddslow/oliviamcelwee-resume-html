@@ -10,60 +10,58 @@ h1, h2, h3, h4, p, span, ul {
     margin: 0;
 }
 
-@media print {
-    #page-wrapper {
-        margin: 0 auto;
-        width: 100%;
-        padding: 24px;
-        box-sizing: border-box;
-    }
+#page-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+}
 
-    .contact-row {
-        display: grid;
-        grid-template-columns: repeat(5, minmax(0, max-content));
-        grid-column-gap: 4px;
-        grid-row-gap: 4px;
-        margin-top: 8px;
-        justify-content: center;
-    }
+.contact-row {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, max-content));
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    margin-top: 8px;
+    justify-content: center;
+}
 
-    div > header {
-        text-align: center;
-    }
+div > header {
+    text-align: center;
+}
 
-    h2 {
-        margin-top: 24px;
-        font-size: 14px;
-        border-bottom: 1px solid #000;
-    }
+h2 {
+    margin-top: 24px;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
 
-    article header {
-        page-break-before: auto;
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, max-content));
-        justify-content: space-between;
-        align-items: end;
-    }
+article header {
+    page-break-before: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, max-content));
+    justify-content: space-between;
+    align-items: end;
+}
 
-    article ul {
-        margin-top: 4px;
-    }
+article ul {
+    margin-top: 4px;
+}
 
-    article ul li {
-        margin-top: 2px;
-    }
+article ul li {
+    margin-top: 2px;
+}
 
-    article {
-        page-break-inside: avoid;
-        margin-left: 24px;
-        margin-top: 16px;
-    }
+article {
+    page-break-inside: avoid;
+    margin-left: 24px;
+    margin-top: 16px;
+}
 
-    .skill-tree {
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        grid-gap: 4px;
-        margin-left: 24px;
-        margin-top: 16px;
-    }
+.skill-tree {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 4px;
+    margin-left: 24px;
+    margin-top: 16px;
 }
